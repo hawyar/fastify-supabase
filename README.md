@@ -7,12 +7,12 @@
 
 > Fastify plugin for [Supabase client](https://github.com/supabase/supabase-js)
 
-## Install
+<!-- ## Install
 
 ```bash
 npm i fastify-supabase
 // yarn add fastify-supabase
-```
+``` -->
 
 ### Usage
 
