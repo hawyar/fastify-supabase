@@ -1,0 +1,40 @@
+{
+  "name": "fastify-supabase",
+  "version": "1.1.0",
+  "description": "Fastify plugin for Supabase client",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap -J test.js",
+    "test:report": "tap -J test.js --coverage-report=html",
+    "test:ci": "tap -J --coverage-report=lcovonly test.js"
+  },
+  "author": "hawyar <hawyarfa@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "supabase",
+    "postgres",
+    "fastify",
+    "auth",
+    "storage",
+    "firebase"
+  ],
+  "dependencies": {
+    "@supabase/supabase-js": "^1.7.7",
+    "dotenv": "^8.2.0",
+    "fastify-plugin": "^3.0.0"
+  },
+  "devDependencies": {
+    "fastify": "^3.14.1",
+    "tap": "^15.0.2"
+  },
+  "repository": "github:hawyar/fastify-supabase",
+  "bugs": {
+    "url": "https://github.com/hawyar/fastify-supabase/issues"
+  },
+  "homepage": "https://github.com/hawyar/fastify-supabase#readme",
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
