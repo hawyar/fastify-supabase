@@ -1,11 +1,15 @@
 # fastify-supabase
 
+**⚠️ Note: I wrote this package initially for myself but never registered it on npm. Now there is already a [well maintained package](https://github.com/coopflow/fastify-supabase) for this purpose, use that.**
+
 ![](https://github.com/hawyar/fastify-supabase/workflows/ci/badge.svg)
 [![Known Vulnerabilities](https://snyk.io/test/github/hawyar/fastify-supabase/badge.svg)](https://snyk.io/test/github/hawyar/fastify-supabase)
 [![Coverage Status](https://coveralls.io/repos/github/hawyar/fastify-supabase/badge.svg?branch=main)](https://coveralls.io/github/hawyar/fastify-supabase?branch=main)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
 > Fastify plugin for [Supabase client](https://github.com/supabase/supabase-js)
+
+
 
 <!-- ## Install
 
